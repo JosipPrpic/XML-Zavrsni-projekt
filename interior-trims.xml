@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <details>
+        <id>1</id>
+        <name>Quartz silver interior trim</name>
+        
+    </details>
+    <details>
+        <id>2</id>
+        <name>Aluminium Mesheffect Interior Trim</name>
+        
+    </details>
+    <details>
+        <id>3</id>
+        <name>Aluminium Rhombicle Interior Trim</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Individual Piano Black Interior Trim</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Black with Blue stitching Vernasca leather</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Oyster with Grey Contrast stitching Vernasca leather</name>
+    </details>
+ 
+</student>

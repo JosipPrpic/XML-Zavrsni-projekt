@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <details>
+        <id>1</id>
+        <name>Sport</name>
+        
+    </details>
+    <details>
+        <id>2</id>
+        <name>M Sport</name>
+        
+    </details>
+    <details>
+        <id>3</id>
+        <name>M Models</name>
+        
+    </details>
+</student>

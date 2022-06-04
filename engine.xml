@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <details>
+        <id>1</id>
+        <name>Petrol, Plug-In Hybrid | 330e Sport Saloon</name>
+        
+    </details>
+    <details>
+        <id>2</id>
+        <name>Petrol, Plug-In Hybrid | 330e xDrive Sport Saloon</name>
+        
+    </details>
+    <details>
+        <id>3</id>
+        <name>Petrol | 320i Sport Saloon</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Petrol | 320i xDrive Sport Saloon</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Petrol | 330i Sport Saloon</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Diesel| 320d Sport Saloon</name>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Diesel | 320d xDrive Sport Saloon</name>
+    </details>
+    
+</student>

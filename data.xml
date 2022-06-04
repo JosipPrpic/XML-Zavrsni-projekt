@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <details>
+        <id>1</id>
+        <name>Black</name>
+        <class>Four</class>
+    </details>
+    <details>
+        <id>2</id>
+        <name>Red</name>
+        <class>Four</class>
+    </details>
+    <details>
+        <id>3</id>
+        <name>Blue</name>
+        <class>Four</class>
+    </details>
+</student>
