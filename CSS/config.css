@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+}
+
+#header-cont {
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+header span {
+    position: fixed;
+    right: 50px;
+    top: 35px;
+    color: white;
+    font-size: 28px;
+}
+
+header span:hover {
+    cursor: pointer;
+}
+
+#banner {
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+#banner img {
+    height: 100px;
+    width: auto;
+}
+
+nav {
+    width: 999px;
+    height: 100px;
+    float: right;
+    text-align: right;
+    padding-top: 30px;
+}
+
+nav a {
+    background-image: linear-gradient( to right, #123196, #123196, 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:before {
+    content: '';
+    background: #123196;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-position: 0;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: rgba (255, 255, 255, 0.9);
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+main {
+    width: 100%;
+    height: max-content;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+#main-cont-first {
+    width: 100%;
+    height: max-content;
+    background-image: url("../IMG/bs-grid-img1\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-content {
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: black; */
+    padding-top: 300px;
+}
+
+#main-sec {
+    width: 1400px;
+    height: 1500px;
+    margin: 0 auto;
+    /* background-color: red; */
+    padding-top: 200px;
+}
+
+#conf-btn {
+    width: 300px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 80px;
+    background-color: transparent;
+    color: white;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#conf-btn:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+#form-wrapper {
+    width: 1000px;
+    height: max-content;
+    margin: 0 auto;
+}
+
+form select {
+    width: 700px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+form select option {
+    background-color: none;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    z-index: 40;
+    position: relative;
+    padding-top: 30px;
+    color: white;
+}
+
+#footer-cont {
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    color: white;
+}
